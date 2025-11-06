@@ -30,6 +30,15 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000` in your browser.
 
+### Updating Content
+
+**Institution Logos:** Replace the placeholder SVG files in `static/images/` with actual logos:
+- `technion.svg` (or `technion.png`) - Technion logo
+- `zurich.svg` (or `zurich.png`) - University of Zurich logo
+- `potsdam.svg` (or `potsdam.png`) - University of Potsdam logo
+
+**Main Figure:** Replace `static/images/eyebench_figure.svg` with the actual EyeBench framework figure (can be PNG, JPG, or SVG).
+
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
 
