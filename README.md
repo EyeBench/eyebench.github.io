@@ -1,77 +1,43 @@
-# Academic Project Page Template
+# EyeBench
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
+**Predictive Modeling from Eye Movements in Reading**
 
-A clean, responsive template for academic project pages.
+This is the project website for EyeBench, presented at NeurIPS 2025.
 
+## Links
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+- 📄 [Paper](https://openreview.net/pdf?id=LhbYJJ3MFd)
+- 💻 [Code Repository](https://github.com/EyeBench/eyebench)
+- 📊 [Poster](https://neurips.cc/virtual/2025/loc/san-diego/poster/121704)
+- 📖 [Documentation](https://github.com/EyeBench/eyebench#readme)
+- 📈 [Results](https://github.com/EyeBench/eyebench#results)
 
+## About
 
+EyeBench provides a comprehensive benchmark for predictive modeling from eye movements in reading. Eye tracking data reveals rich information about cognitive processes during reading, including attention patterns, reading comprehension, and individual differences in reading behavior. This benchmark aims to standardize evaluation protocols and provide datasets for developing and testing predictive models that leverage eye movement data to understand and predict various aspects of reading behavior.
 
-## Start using the template
-To start using the template click on `Use this Template`.
+## Website
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+Visit the project page at [https://eyebench.github.io](https://eyebench.github.io)
 
-**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+## Development
 
-## What's New
+This website uses a static HTML template. To run locally:
 
-- Modern, clean design with better mobile support
-- Improved SEO with proper meta tags and structured data
-- Performance improvements (lazy loading, optimized assets)
-- More Works dropdown
-- Copy button for BibTeX citations
-- Better accessibility
+```bash
+python3 -m http.server 8000
+```
 
-## Components
+Then visit `http://localhost:8000` in your browser.
 
-- Teaser video
-- Image carousel
-- YouTube video embedding
-- Video carousel
-- PDF poster viewer
-- BibTeX citation
+### Updating Content
 
-## Customization
+**Institution Logos:** Replace the placeholder SVG files in `static/images/` with actual logos:
+- `technion.svg` (or `technion.png`) - Technion logo
+- `zurich.svg` (or `zurich.png`) - University of Zurich logo
+- `potsdam.svg` (or `potsdam.png`) - University of Potsdam logo
 
-The HTML file has TODO comments showing what to replace:
-
-- Paper title, authors, institution, conference
-- Links (arXiv, GitHub, etc.)
-- Abstract and descriptions  
-- Videos, images, and PDFs
-- Related works in the dropdown
-- Meta tags for SEO and social sharing
-
-### Meta Tags
-The template includes meta tags for better search engine visibility and social media sharing. These appear in the `<head>` section and help with:
-- Google Scholar indexing
-- Social media previews (Twitter, Facebook, LinkedIn)
-- Search engine optimization
-
-Create a 1200x630px social preview image at `static/images/social_preview.png`.
-
-## Tips
-
-- Compress images with [TinyPNG](https://tinypng.com)
-- Use YouTube for large videos (>10MB)  
-- Replace the favicon in `static/images/`
-- Works with GitHub Pages
+**Main Figure:** Replace `static/images/eyebench_figure.svg` with the actual EyeBench framework figure (can be PNG, JPG, or SVG).
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
