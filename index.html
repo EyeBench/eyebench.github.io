@@ -308,7 +308,7 @@
       <h2 class="title is-3">EyeBench in a Nutshell</h2>
     </div>
 
-    <p class="subtitle is-4" style="margin-top: 1.5rem;">
+    <p class="subtitle is-4 has-text-centered" style="margin-top: 1.5rem;">
   A standardized framework for decoding cognitive and linguistic information
   from eye movements during reading.
 </p>
@@ -374,13 +374,21 @@
       <p class="heading">Words</p>
     </div>
 
-    <div class="column">
+    <!-- <div class="column">
       <figure class="image is-48x48 is-inline-block">
         <img src="static/images/trials.svg" alt="Trials icon">
       </figure>
       <p class="title is-4" style="margin-top: 0.5rem;">~31K</p>
       <p class="heading">Reading Trials</p>
-    </div>
+    </div> -->
+    <div class="column has-text-centered">
+  <img src="static/images/trials.svg"
+       alt="Reading trials icon"
+       style="height:48px; width:96px; object-fit:contain;" />
+  <p class="title is-4" style="margin-top: 0.5rem;">~31K</p>
+  <p class="heading">Reading Trials</p>
+</div>
+
 
   </div>
 </div>
@@ -400,16 +408,24 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container has-text-centered">
-    <figure class="image is-inline-block" style="max-width: 500px;">
-      <img src="static/images/trial.gif" alt="EyeBench animation">
-    </figure>
-    <p class="is-size-6" style="margin-top: 0.5rem; color: #666;">
-      Eye Movements over a Passage
-    </p>
+
+<!-- GIF -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full">
+          <h2 class="title is-3">Overview</h2>
+          <img src="static/images/trial.gif" alt="Trial animation" style="max-width: 100%; height: auto;" loading="lazy"/>
+          <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
+            An example of eye movements over a passage.
+          </h2>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 
     
